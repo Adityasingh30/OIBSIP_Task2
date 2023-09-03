@@ -1,0 +1,39 @@
+body {
+background-color: hwb(240 68% 12%);
+}
+h1 {
+  text-align: center;
+  color: hsl(0, 88%, 47%);
+  font-size: 85px;
+  font-family: Georgia, serif;
+  transition: transform 0.3s ease-in-out;}
+h1:hover {
+    transform: scale(1.15); 
+}
+.liste {
+  color: rgb(239, 20, 27);
+}
+.listek {
+  color: rgb(239, 20, 27);
+  font-size: 35px;}
+img {
+    display: block;
+    max-width: 50%;
+    border-radius: 0 50px 0 50px;
+    box-shadow: 0 4px 8px rgba(241, 234, 234, 0.916); 
+    overflow: hidden; 
+    transition: transform 0.3s linear; 
+    margin: 0 auto;
+}
+img:hover {
+    transform: scale(1.15); 
+}
+p {
+  margin-left: 10px;
+  text-indent: 20px;
+  font-size: 30px;
+  font-style: Monospace;
+  transition: transform 0.3s ease-in-out;
+}
+p:hover {
+    transform: scale(1.15); }
